@@ -1,0 +1,50 @@
+.carousel-content{
+    position: absolute;
+    top: 21%;
+    left:10%;
+}
+
+.carousel-content h5 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-content h5 {
+        font-size: 20px;
+
+      }
+
+    .carousel-content{
+        display: block !important;
+      }
+
+
+    }
+
+
+
+
+
+
+  @media (max-width: 1150px) {
+    .carousel-content h5 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-content p {
+        margin-bottom: 5px;
+    }
+    .section{
+      
+      height: 40vh;
+    }
+    img{
+      height: 40vh;
+    }
+
+      }
